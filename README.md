@@ -20,6 +20,6 @@ def download_video(video_url, output_path):
 
 if __name__ == "__main__":
     video_url = input("Insira o URL do vídeo do YouTube")
-    output_path = "C:\\Users\\Fabrício\\Downloads" #COLOCAR O CAMINHO QUE VC QUER SALVAR O VIDEO#
+    output_path = "C:\\Users\\Fabrício\\Downloads"
     
     download_video(video_url, output_path)
